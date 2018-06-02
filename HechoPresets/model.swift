@@ -26,3 +26,21 @@ let examples = [ [UIImage(named: "Autumn_")! : UIImage(named: "Autumn")!],
                 ]
 
 let examplesNames = ["Autumn", "Barcelona", "Bright portrait", "Bright wedding", "Brown cold", "Brown film", "BW graphite", "Chocolate", "Chocolate desaturated", "Chocolate film", "Contrast wedding", "Landscape cold", "Landscape green", "Nice toning", "Warm skin"]
+
+
+let presets = [Bundle.main.path(forResource: "Autumn", ofType: ".dng"),
+               Bundle.main.path(forResource: "Barcelona", ofType: ".dng"),
+               Bundle.main.path(forResource: "Bright wedding", ofType: ".dng"),
+               Bundle.main.path(forResource: "Bright_portrait", ofType: ".dng"),
+               Bundle.main.path(forResource: "Brown cold", ofType: ".dng"),
+               Bundle.main.path(forResource: "Brown film", ofType: ".dng"),
+               Bundle.main.path(forResource: "BW graphite", ofType: ".dng"),
+               Bundle.main.path(forResource: "Chocolate desaturate", ofType: ".dng"),
+               Bundle.main.path(forResource: "Chocolate film", ofType: ".dng"),
+               Bundle.main.path(forResource: "Chocolate", ofType: ".dng"),
+               Bundle.main.path(forResource: "High contrast", ofType: ".dng"),
+               Bundle.main.path(forResource: "Landscape cold", ofType: ".dng"),
+               Bundle.main.path(forResource: "Landscape green", ofType: ".dng"),
+               Bundle.main.path(forResource: "Nice toning", ofType: ".dng"),
+               Bundle.main.path(forResource: "Warm skin", ofType: ".dng")
+]

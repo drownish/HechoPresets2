@@ -30,6 +30,22 @@
 		FAB9E3D020C2D31A00873697 /* BW graphite.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3C120C2D31A00873697 /* BW graphite.dng */; };
 		FAB9E3D120C2D31A00873697 /* Chocolate.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3C220C2D31A00873697 /* Chocolate.dng */; };
 		FAB9E3D220C2D31A00873697 /* Landscape green.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3C320C2D31A00873697 /* Landscape green.dng */; };
+		FAB9E3D620C2D95000873697 /* PresetsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E3D520C2D95000873697 /* PresetsController.swift */; };
+		FAB9E3E720C2DC3600873697 /* Chocolate film.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3D820C2DC3400873697 /* Chocolate film.jpg */; };
+		FAB9E3E820C2DC3600873697 /* Nice toning.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3D920C2DC3400873697 /* Nice toning.jpg */; };
+		FAB9E3E920C2DC3600873697 /* Warm skin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3DA20C2DC3400873697 /* Warm skin.jpg */; };
+		FAB9E3EA20C2DC3600873697 /* Bright_portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3DB20C2DC3400873697 /* Bright_portrait.jpg */; };
+		FAB9E3EB20C2DC3600873697 /* Landscape green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3DC20C2DC3400873697 /* Landscape green.jpg */; };
+		FAB9E3EC20C2DC3600873697 /* Chocolate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3DD20C2DC3400873697 /* Chocolate.jpg */; };
+		FAB9E3ED20C2DC3600873697 /* Bright wedding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3DE20C2DC3500873697 /* Bright wedding.jpg */; };
+		FAB9E3EE20C2DC3600873697 /* High contrast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3DF20C2DC3500873697 /* High contrast.jpg */; };
+		FAB9E3EF20C2DC3600873697 /* BW graphite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3E020C2DC3500873697 /* BW graphite.jpg */; };
+		FAB9E3F020C2DC3600873697 /* Brown film.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3E120C2DC3500873697 /* Brown film.jpg */; };
+		FAB9E3F120C2DC3600873697 /* Chocolate desaturate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3E220C2DC3500873697 /* Chocolate desaturate.jpg */; };
+		FAB9E3F220C2DC3600873697 /* Brown cold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3E320C2DC3500873697 /* Brown cold.jpg */; };
+		FAB9E3F320C2DC3600873697 /* Landscape cold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3E420C2DC3600873697 /* Landscape cold.jpg */; };
+		FAB9E3F420C2DC3600873697 /* Barcelona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3E520C2DC3600873697 /* Barcelona.jpg */; };
+		FAB9E3F520C2DC3600873697 /* Autumn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3E620C2DC3600873697 /* Autumn.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +74,22 @@
 		FAB9E3C120C2D31A00873697 /* BW graphite.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BW graphite.dng"; sourceTree = "<group>"; };
 		FAB9E3C220C2D31A00873697 /* Chocolate.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chocolate.dng; sourceTree = "<group>"; };
 		FAB9E3C320C2D31A00873697 /* Landscape green.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Landscape green.dng"; sourceTree = "<group>"; };
+		FAB9E3D520C2D95000873697 /* PresetsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetsController.swift; sourceTree = "<group>"; };
+		FAB9E3D820C2DC3400873697 /* Chocolate film.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chocolate film.jpg"; sourceTree = "<group>"; };
+		FAB9E3D920C2DC3400873697 /* Nice toning.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nice toning.jpg"; sourceTree = "<group>"; };
+		FAB9E3DA20C2DC3400873697 /* Warm skin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Warm skin.jpg"; sourceTree = "<group>"; };
+		FAB9E3DB20C2DC3400873697 /* Bright_portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bright_portrait.jpg; sourceTree = "<group>"; };
+		FAB9E3DC20C2DC3400873697 /* Landscape green.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Landscape green.jpg"; sourceTree = "<group>"; };
+		FAB9E3DD20C2DC3400873697 /* Chocolate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chocolate.jpg; sourceTree = "<group>"; };
+		FAB9E3DE20C2DC3500873697 /* Bright wedding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bright wedding.jpg"; sourceTree = "<group>"; };
+		FAB9E3DF20C2DC3500873697 /* High contrast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "High contrast.jpg"; sourceTree = "<group>"; };
+		FAB9E3E020C2DC3500873697 /* BW graphite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BW graphite.jpg"; sourceTree = "<group>"; };
+		FAB9E3E120C2DC3500873697 /* Brown film.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Brown film.jpg"; sourceTree = "<group>"; };
+		FAB9E3E220C2DC3500873697 /* Chocolate desaturate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chocolate desaturate.jpg"; sourceTree = "<group>"; };
+		FAB9E3E320C2DC3500873697 /* Brown cold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Brown cold.jpg"; sourceTree = "<group>"; };
+		FAB9E3E420C2DC3600873697 /* Landscape cold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Landscape cold.jpg"; sourceTree = "<group>"; };
+		FAB9E3E520C2DC3600873697 /* Barcelona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Barcelona.jpg; sourceTree = "<group>"; };
+		FAB9E3E620C2DC3600873697 /* Autumn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Autumn.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +126,7 @@
 				FAB9E39C20C135FF00873697 /* AppDelegate.swift */,
 				FAB9E39E20C135FF00873697 /* ViewController.swift */,
 				FAB9E3AE20C1426B00873697 /* ExamplesController.swift */,
+				FAB9E3D520C2D95000873697 /* PresetsController.swift */,
 				FAB9E3A020C135FF00873697 /* Main.storyboard */,
 				FAB9E3A320C1360000873697 /* Assets.xcassets */,
 				FAB9E3A520C1360000873697 /* LaunchScreen.storyboard */,
@@ -107,6 +140,7 @@
 		FAB9E3B420C2D2D500873697 /* presets */ = {
 			isa = PBXGroup;
 			children = (
+				FAB9E3D720C2DC1100873697 /* previews */,
 				FAB9E3B820C2D31900873697 /* Autumn.dng */,
 				FAB9E3BE20C2D31A00873697 /* Barcelona.dng */,
 				FAB9E3B920C2D31900873697 /* Bright wedding.dng */,
@@ -124,6 +158,28 @@
 				FAB9E3C020C2D31A00873697 /* Warm skin.dng */,
 			);
 			path = presets;
+			sourceTree = "<group>";
+		};
+		FAB9E3D720C2DC1100873697 /* previews */ = {
+			isa = PBXGroup;
+			children = (
+				FAB9E3E620C2DC3600873697 /* Autumn.jpg */,
+				FAB9E3E520C2DC3600873697 /* Barcelona.jpg */,
+				FAB9E3DE20C2DC3500873697 /* Bright wedding.jpg */,
+				FAB9E3DB20C2DC3400873697 /* Bright_portrait.jpg */,
+				FAB9E3E320C2DC3500873697 /* Brown cold.jpg */,
+				FAB9E3E120C2DC3500873697 /* Brown film.jpg */,
+				FAB9E3E020C2DC3500873697 /* BW graphite.jpg */,
+				FAB9E3E220C2DC3500873697 /* Chocolate desaturate.jpg */,
+				FAB9E3D820C2DC3400873697 /* Chocolate film.jpg */,
+				FAB9E3DD20C2DC3400873697 /* Chocolate.jpg */,
+				FAB9E3DF20C2DC3500873697 /* High contrast.jpg */,
+				FAB9E3E420C2DC3600873697 /* Landscape cold.jpg */,
+				FAB9E3DC20C2DC3400873697 /* Landscape green.jpg */,
+				FAB9E3D920C2DC3400873697 /* Nice toning.jpg */,
+				FAB9E3DA20C2DC3400873697 /* Warm skin.jpg */,
+			);
+			path = previews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,24 +240,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB9E3E920C2DC3600873697 /* Warm skin.jpg in Resources */,
 				FAB9E3CF20C2D31A00873697 /* Warm skin.dng in Resources */,
+				FAB9E3E720C2DC3600873697 /* Chocolate film.jpg in Resources */,
+				FAB9E3F420C2DC3600873697 /* Barcelona.jpg in Resources */,
 				FAB9E3CE20C2D31A00873697 /* High contrast.dng in Resources */,
 				FAB9E3CC20C2D31A00873697 /* Nice toning.dng in Resources */,
 				FAB9E3D020C2D31A00873697 /* BW graphite.dng in Resources */,
+				FAB9E3EC20C2DC3600873697 /* Chocolate.jpg in Resources */,
+				FAB9E3EA20C2DC3600873697 /* Bright_portrait.jpg in Resources */,
 				FAB9E3D120C2D31A00873697 /* Chocolate.dng in Resources */,
 				FAB9E3C920C2D31A00873697 /* Brown cold.dng in Resources */,
 				FAB9E3D220C2D31A00873697 /* Landscape green.dng in Resources */,
+				FAB9E3E820C2DC3600873697 /* Nice toning.jpg in Resources */,
+				FAB9E3ED20C2DC3600873697 /* Bright wedding.jpg in Resources */,
+				FAB9E3F020C2DC3600873697 /* Brown film.jpg in Resources */,
 				FAB9E3CA20C2D31A00873697 /* Chocolate film.dng in Resources */,
 				FAB9E3CD20C2D31A00873697 /* Barcelona.dng in Resources */,
 				FAB9E3C720C2D31A00873697 /* Autumn.dng in Resources */,
+				FAB9E3F220C2DC3600873697 /* Brown cold.jpg in Resources */,
 				FAB9E3A720C1360000873697 /* LaunchScreen.storyboard in Resources */,
+				FAB9E3EB20C2DC3600873697 /* Landscape green.jpg in Resources */,
+				FAB9E3EE20C2DC3600873697 /* High contrast.jpg in Resources */,
 				FAB9E3C520C2D31A00873697 /* Chocolate desaturate.dng in Resources */,
+				FAB9E3F320C2DC3600873697 /* Landscape cold.jpg in Resources */,
+				FAB9E3EF20C2DC3600873697 /* BW graphite.jpg in Resources */,
 				FAB9E3C820C2D31A00873697 /* Bright wedding.dng in Resources */,
 				FAB9E3A420C1360000873697 /* Assets.xcassets in Resources */,
 				FAB9E3C620C2D31A00873697 /* Brown film.dng in Resources */,
 				FAB9E3CB20C2D31A00873697 /* Landscape cold.dng in Resources */,
 				FAB9E3C420C2D31A00873697 /* Bright_portrait.dng in Resources */,
 				FAB9E3A220C135FF00873697 /* Main.storyboard in Resources */,
+				FAB9E3F520C2DC3600873697 /* Autumn.jpg in Resources */,
+				FAB9E3F120C2DC3600873697 /* Chocolate desaturate.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB9E3D620C2D95000873697 /* PresetsController.swift in Sources */,
 				FAB9E3B320C1452B00873697 /* model.swift in Sources */,
 				FAB9E3B120C1435500873697 /* ExampleCell.swift in Sources */,
 				FAB9E39F20C135FF00873697 /* ViewController.swift in Sources */,
