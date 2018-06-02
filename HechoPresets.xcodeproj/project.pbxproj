@@ -12,6 +12,24 @@
 		FAB9E3A220C135FF00873697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3A020C135FF00873697 /* Main.storyboard */; };
 		FAB9E3A420C1360000873697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3A320C1360000873697 /* Assets.xcassets */; };
 		FAB9E3A720C1360000873697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3A520C1360000873697 /* LaunchScreen.storyboard */; };
+		FAB9E3AF20C1426B00873697 /* ExamplesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E3AE20C1426B00873697 /* ExamplesController.swift */; };
+		FAB9E3B120C1435500873697 /* ExampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E3B020C1435500873697 /* ExampleCell.swift */; };
+		FAB9E3B320C1452B00873697 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E3B220C1452B00873697 /* model.swift */; };
+		FAB9E3C420C2D31A00873697 /* Bright_portrait.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3B520C2D31900873697 /* Bright_portrait.dng */; };
+		FAB9E3C520C2D31A00873697 /* Chocolate desaturate.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3B620C2D31900873697 /* Chocolate desaturate.dng */; };
+		FAB9E3C620C2D31A00873697 /* Brown film.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3B720C2D31900873697 /* Brown film.dng */; };
+		FAB9E3C720C2D31A00873697 /* Autumn.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3B820C2D31900873697 /* Autumn.dng */; };
+		FAB9E3C820C2D31A00873697 /* Bright wedding.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3B920C2D31900873697 /* Bright wedding.dng */; };
+		FAB9E3C920C2D31A00873697 /* Brown cold.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3BA20C2D31900873697 /* Brown cold.dng */; };
+		FAB9E3CA20C2D31A00873697 /* Chocolate film.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3BB20C2D31A00873697 /* Chocolate film.dng */; };
+		FAB9E3CB20C2D31A00873697 /* Landscape cold.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3BC20C2D31A00873697 /* Landscape cold.dng */; };
+		FAB9E3CC20C2D31A00873697 /* Nice toning.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3BD20C2D31A00873697 /* Nice toning.dng */; };
+		FAB9E3CD20C2D31A00873697 /* Barcelona.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3BE20C2D31A00873697 /* Barcelona.dng */; };
+		FAB9E3CE20C2D31A00873697 /* High contrast.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3BF20C2D31A00873697 /* High contrast.dng */; };
+		FAB9E3CF20C2D31A00873697 /* Warm skin.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3C020C2D31A00873697 /* Warm skin.dng */; };
+		FAB9E3D020C2D31A00873697 /* BW graphite.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3C120C2D31A00873697 /* BW graphite.dng */; };
+		FAB9E3D120C2D31A00873697 /* Chocolate.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3C220C2D31A00873697 /* Chocolate.dng */; };
+		FAB9E3D220C2D31A00873697 /* Landscape green.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3C320C2D31A00873697 /* Landscape green.dng */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +40,24 @@
 		FAB9E3A320C1360000873697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB9E3A620C1360000873697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAB9E3A820C1360000873697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB9E3AE20C1426B00873697 /* ExamplesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplesController.swift; sourceTree = "<group>"; };
+		FAB9E3B020C1435500873697 /* ExampleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCell.swift; sourceTree = "<group>"; };
+		FAB9E3B220C1452B00873697 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		FAB9E3B520C2D31900873697 /* Bright_portrait.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bright_portrait.dng; sourceTree = "<group>"; };
+		FAB9E3B620C2D31900873697 /* Chocolate desaturate.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chocolate desaturate.dng"; sourceTree = "<group>"; };
+		FAB9E3B720C2D31900873697 /* Brown film.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brown film.dng"; sourceTree = "<group>"; };
+		FAB9E3B820C2D31900873697 /* Autumn.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = Autumn.dng; sourceTree = "<group>"; };
+		FAB9E3B920C2D31900873697 /* Bright wedding.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bright wedding.dng"; sourceTree = "<group>"; };
+		FAB9E3BA20C2D31900873697 /* Brown cold.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brown cold.dng"; sourceTree = "<group>"; };
+		FAB9E3BB20C2D31A00873697 /* Chocolate film.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chocolate film.dng"; sourceTree = "<group>"; };
+		FAB9E3BC20C2D31A00873697 /* Landscape cold.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Landscape cold.dng"; sourceTree = "<group>"; };
+		FAB9E3BD20C2D31A00873697 /* Nice toning.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nice toning.dng"; sourceTree = "<group>"; };
+		FAB9E3BE20C2D31A00873697 /* Barcelona.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = Barcelona.dng; sourceTree = "<group>"; };
+		FAB9E3BF20C2D31A00873697 /* High contrast.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "High contrast.dng"; sourceTree = "<group>"; };
+		FAB9E3C020C2D31A00873697 /* Warm skin.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Warm skin.dng"; sourceTree = "<group>"; };
+		FAB9E3C120C2D31A00873697 /* BW graphite.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BW graphite.dng"; sourceTree = "<group>"; };
+		FAB9E3C220C2D31A00873697 /* Chocolate.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chocolate.dng; sourceTree = "<group>"; };
+		FAB9E3C320C2D31A00873697 /* Landscape green.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Landscape green.dng"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +90,40 @@
 		FAB9E39B20C135FF00873697 /* HechoPresets */ = {
 			isa = PBXGroup;
 			children = (
+				FAB9E3B220C1452B00873697 /* model.swift */,
 				FAB9E39C20C135FF00873697 /* AppDelegate.swift */,
 				FAB9E39E20C135FF00873697 /* ViewController.swift */,
+				FAB9E3AE20C1426B00873697 /* ExamplesController.swift */,
 				FAB9E3A020C135FF00873697 /* Main.storyboard */,
 				FAB9E3A320C1360000873697 /* Assets.xcassets */,
 				FAB9E3A520C1360000873697 /* LaunchScreen.storyboard */,
 				FAB9E3A820C1360000873697 /* Info.plist */,
+				FAB9E3B020C1435500873697 /* ExampleCell.swift */,
+				FAB9E3B420C2D2D500873697 /* presets */,
 			);
 			path = HechoPresets;
+			sourceTree = "<group>";
+		};
+		FAB9E3B420C2D2D500873697 /* presets */ = {
+			isa = PBXGroup;
+			children = (
+				FAB9E3B820C2D31900873697 /* Autumn.dng */,
+				FAB9E3BE20C2D31A00873697 /* Barcelona.dng */,
+				FAB9E3B920C2D31900873697 /* Bright wedding.dng */,
+				FAB9E3B520C2D31900873697 /* Bright_portrait.dng */,
+				FAB9E3BA20C2D31900873697 /* Brown cold.dng */,
+				FAB9E3B720C2D31900873697 /* Brown film.dng */,
+				FAB9E3C120C2D31A00873697 /* BW graphite.dng */,
+				FAB9E3B620C2D31900873697 /* Chocolate desaturate.dng */,
+				FAB9E3BB20C2D31A00873697 /* Chocolate film.dng */,
+				FAB9E3C220C2D31A00873697 /* Chocolate.dng */,
+				FAB9E3BF20C2D31A00873697 /* High contrast.dng */,
+				FAB9E3BC20C2D31A00873697 /* Landscape cold.dng */,
+				FAB9E3C320C2D31A00873697 /* Landscape green.dng */,
+				FAB9E3BD20C2D31A00873697 /* Nice toning.dng */,
+				FAB9E3C020C2D31A00873697 /* Warm skin.dng */,
+			);
+			path = presets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +184,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB9E3CF20C2D31A00873697 /* Warm skin.dng in Resources */,
+				FAB9E3CE20C2D31A00873697 /* High contrast.dng in Resources */,
+				FAB9E3CC20C2D31A00873697 /* Nice toning.dng in Resources */,
+				FAB9E3D020C2D31A00873697 /* BW graphite.dng in Resources */,
+				FAB9E3D120C2D31A00873697 /* Chocolate.dng in Resources */,
+				FAB9E3C920C2D31A00873697 /* Brown cold.dng in Resources */,
+				FAB9E3D220C2D31A00873697 /* Landscape green.dng in Resources */,
+				FAB9E3CA20C2D31A00873697 /* Chocolate film.dng in Resources */,
+				FAB9E3CD20C2D31A00873697 /* Barcelona.dng in Resources */,
+				FAB9E3C720C2D31A00873697 /* Autumn.dng in Resources */,
 				FAB9E3A720C1360000873697 /* LaunchScreen.storyboard in Resources */,
+				FAB9E3C520C2D31A00873697 /* Chocolate desaturate.dng in Resources */,
+				FAB9E3C820C2D31A00873697 /* Bright wedding.dng in Resources */,
 				FAB9E3A420C1360000873697 /* Assets.xcassets in Resources */,
+				FAB9E3C620C2D31A00873697 /* Brown film.dng in Resources */,
+				FAB9E3CB20C2D31A00873697 /* Landscape cold.dng in Resources */,
+				FAB9E3C420C2D31A00873697 /* Bright_portrait.dng in Resources */,
 				FAB9E3A220C135FF00873697 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +212,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB9E3B320C1452B00873697 /* model.swift in Sources */,
+				FAB9E3B120C1435500873697 /* ExampleCell.swift in Sources */,
 				FAB9E39F20C135FF00873697 /* ViewController.swift in Sources */,
 				FAB9E39D20C135FF00873697 /* AppDelegate.swift in Sources */,
+				FAB9E3AF20C1426B00873697 /* ExamplesController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
