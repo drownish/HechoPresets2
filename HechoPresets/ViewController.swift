@@ -20,6 +20,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func showManual(_ sender: Any) {
+        let vc = UIStoryboard(name: "Main", bundle: nil) .
+            instantiateViewController(withIdentifier: "man") as! ManualController
+        self.present(vc, animated: true)
+    }
+    
 }
 

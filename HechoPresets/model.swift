@@ -31,7 +31,7 @@ let examplesNames = ["Autumn", "Barcelona", "Bright portrait", "Bright wedding",
 let presets = [Bundle.main.path(forResource: "Autumn", ofType: ".dng"),
                Bundle.main.path(forResource: "Barcelona", ofType: ".dng"),
                Bundle.main.path(forResource: "Bright wedding", ofType: ".dng"),
-               Bundle.main.path(forResource: "Bright_portrait", ofType: ".dng"),
+               Bundle.main.path(forResource: "Bright portrait", ofType: ".dng"),
                Bundle.main.path(forResource: "Brown cold", ofType: ".dng"),
                Bundle.main.path(forResource: "Brown film", ofType: ".dng"),
                Bundle.main.path(forResource: "BW graphite", ofType: ".dng"),
@@ -43,4 +43,23 @@ let presets = [Bundle.main.path(forResource: "Autumn", ofType: ".dng"),
                Bundle.main.path(forResource: "Landscape green", ofType: ".dng"),
                Bundle.main.path(forResource: "Nice toning", ofType: ".dng"),
                Bundle.main.path(forResource: "Warm skin", ofType: ".dng")
+]
+
+let presetsPreviews = [UIImage(named: "1.jpg")!,
+                       UIImage(named: "2.jpg")!,
+                       UIImage(named: "3.jpg")!,
+                       UIImage(named: "4.jpg")!,
+                       UIImage(named: "5.jpg")!,
+                       UIImage(named: "6.jpg")!,
+                       UIImage(named: "7.jpg")!,
+                       UIImage(named: "8.jpg")!,
+                       UIImage(named: "9.jpg")!,
+                       UIImage(named: "10.jpg")!,
+                       UIImage(named: "11.jpg")!,
+                       UIImage(named: "12.jpg")!,
+                       UIImage(named: "13.jpg")!,
+                       UIImage(named: "14.jpg")!,
+                       UIImage(named: "15.jpg")!
+
+
 ]

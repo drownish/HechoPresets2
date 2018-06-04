@@ -11,6 +11,22 @@ import UIKit
 private let reuseIdentifier = "cell"
 
 class ExamplesController: UICollectionViewController {
+    
+    
+    lazy var imgsCompressed: [UIImage] = {
+        var returnArray = [UIImage]()
+        
+        for i in examples {
+            let img = i.first?.value
+            let data = UIImageJPEGRepresentation(img!, 0.3)
+            let imgCompressed = UIImage(data: data!)
+            returnArray.append(imgCompressed!)
+            print("appended")
+            
+        }
+        print(returnArray)
+        return returnArray
+    }()
 
     @IBAction func press(_ sender: UILongPressGestureRecognizer) {
         print("press")
@@ -70,7 +86,10 @@ class ExamplesController: UICollectionViewController {
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! ExampleCell
         cell.layer.cornerRadius = 8
-        cell.imageCell.image = examples[indexPath.row].first?.value
+        /*let img = examples[indexPath.row].first?.value
+        let data = UIImageJPEGRepresentation(img!, 0.3)
+        let imgCompressed = UIImage(data: data!)*/
+        cell.imageCell.image = imgsCompressed[indexPath.row]
         cell.titleOfCell.text = examplesNames[indexPath.row]
         return cell
     }

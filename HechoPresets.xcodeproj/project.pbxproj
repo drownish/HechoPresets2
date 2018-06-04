@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA7F1CAC20C467AE000DA6BF /* ManualController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F1CAB20C467AE000DA6BF /* ManualController.swift */; };
+		FA7F1CAE20C57AF3000DA6BF /* PageOfManual.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F1CAD20C57AF3000DA6BF /* PageOfManual.swift */; };
+		FA7F1CBB20C57D2D000DA6BF /* 77.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7F1CB220C57D2D000DA6BF /* 77.jpg */; };
+		FA7F1CBC20C57D2D000DA6BF /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7F1CB320C57D2D000DA6BF /* 11.jpg */; };
+		FA7F1CBD20C57D2D000DA6BF /* 44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7F1CB420C57D2D000DA6BF /* 44.jpg */; };
+		FA7F1CBE20C57D2D000DA6BF /* 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7F1CB520C57D2D000DA6BF /* 22.jpg */; };
+		FA7F1CC020C57D2D000DA6BF /* 99.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7F1CB720C57D2D000DA6BF /* 99.jpg */; };
+		FA7F1CC120C57D2D000DA6BF /* 55.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7F1CB820C57D2D000DA6BF /* 55.jpg */; };
+		FA7F1CC220C57D2D000DA6BF /* 88.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7F1CB920C57D2D000DA6BF /* 88.jpg */; };
+		FA7F1CC420C57F37000DA6BF /* 66.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7F1CC320C57F37000DA6BF /* 66.jpg */; };
+		FA7F1CC620C57F58000DA6BF /* 33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7F1CC520C57F58000DA6BF /* 33.jpg */; };
+		FA7F1CC820C58611000DA6BF /* FirstPageOfManual.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F1CC720C58611000DA6BF /* FirstPageOfManual.swift */; };
 		FAB9E39D20C135FF00873697 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E39C20C135FF00873697 /* AppDelegate.swift */; };
 		FAB9E39F20C135FF00873697 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E39E20C135FF00873697 /* ViewController.swift */; };
 		FAB9E3A220C135FF00873697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3A020C135FF00873697 /* Main.storyboard */; };
@@ -15,7 +27,7 @@
 		FAB9E3AF20C1426B00873697 /* ExamplesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E3AE20C1426B00873697 /* ExamplesController.swift */; };
 		FAB9E3B120C1435500873697 /* ExampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E3B020C1435500873697 /* ExampleCell.swift */; };
 		FAB9E3B320C1452B00873697 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E3B220C1452B00873697 /* model.swift */; };
-		FAB9E3C420C2D31A00873697 /* Bright_portrait.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3B520C2D31900873697 /* Bright_portrait.dng */; };
+		FAB9E3C420C2D31A00873697 /* Bright portrait.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3B520C2D31900873697 /* Bright portrait.dng */; };
 		FAB9E3C520C2D31A00873697 /* Chocolate desaturate.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3B620C2D31900873697 /* Chocolate desaturate.dng */; };
 		FAB9E3C620C2D31A00873697 /* Brown film.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3B720C2D31900873697 /* Brown film.dng */; };
 		FAB9E3C720C2D31A00873697 /* Autumn.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3B820C2D31900873697 /* Autumn.dng */; };
@@ -31,24 +43,38 @@
 		FAB9E3D120C2D31A00873697 /* Chocolate.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3C220C2D31A00873697 /* Chocolate.dng */; };
 		FAB9E3D220C2D31A00873697 /* Landscape green.dng in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3C320C2D31A00873697 /* Landscape green.dng */; };
 		FAB9E3D620C2D95000873697 /* PresetsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E3D520C2D95000873697 /* PresetsController.swift */; };
-		FAB9E3E720C2DC3600873697 /* Chocolate film.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3D820C2DC3400873697 /* Chocolate film.jpg */; };
-		FAB9E3E820C2DC3600873697 /* Nice toning.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3D920C2DC3400873697 /* Nice toning.jpg */; };
-		FAB9E3E920C2DC3600873697 /* Warm skin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3DA20C2DC3400873697 /* Warm skin.jpg */; };
-		FAB9E3EA20C2DC3600873697 /* Bright_portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3DB20C2DC3400873697 /* Bright_portrait.jpg */; };
-		FAB9E3EB20C2DC3600873697 /* Landscape green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3DC20C2DC3400873697 /* Landscape green.jpg */; };
-		FAB9E3EC20C2DC3600873697 /* Chocolate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3DD20C2DC3400873697 /* Chocolate.jpg */; };
-		FAB9E3ED20C2DC3600873697 /* Bright wedding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3DE20C2DC3500873697 /* Bright wedding.jpg */; };
-		FAB9E3EE20C2DC3600873697 /* High contrast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3DF20C2DC3500873697 /* High contrast.jpg */; };
-		FAB9E3EF20C2DC3600873697 /* BW graphite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3E020C2DC3500873697 /* BW graphite.jpg */; };
-		FAB9E3F020C2DC3600873697 /* Brown film.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3E120C2DC3500873697 /* Brown film.jpg */; };
-		FAB9E3F120C2DC3600873697 /* Chocolate desaturate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3E220C2DC3500873697 /* Chocolate desaturate.jpg */; };
-		FAB9E3F220C2DC3600873697 /* Brown cold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3E320C2DC3500873697 /* Brown cold.jpg */; };
-		FAB9E3F320C2DC3600873697 /* Landscape cold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3E420C2DC3600873697 /* Landscape cold.jpg */; };
-		FAB9E3F420C2DC3600873697 /* Barcelona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3E520C2DC3600873697 /* Barcelona.jpg */; };
-		FAB9E3F520C2DC3600873697 /* Autumn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3E620C2DC3600873697 /* Autumn.jpg */; };
+		FAB9E3E720C2DC3600873697 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3D820C2DC3400873697 /* 9.jpg */; };
+		FAB9E3E820C2DC3600873697 /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3D920C2DC3400873697 /* 14.jpg */; };
+		FAB9E3E920C2DC3600873697 /* 15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3DA20C2DC3400873697 /* 15.jpg */; };
+		FAB9E3EA20C2DC3600873697 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3DB20C2DC3400873697 /* 4.jpg */; };
+		FAB9E3EB20C2DC3600873697 /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3DC20C2DC3400873697 /* 13.jpg */; };
+		FAB9E3EC20C2DC3600873697 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3DD20C2DC3400873697 /* 10.jpg */; };
+		FAB9E3ED20C2DC3600873697 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3DE20C2DC3500873697 /* 3.jpg */; };
+		FAB9E3EE20C2DC3600873697 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3DF20C2DC3500873697 /* 11.jpg */; };
+		FAB9E3EF20C2DC3600873697 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3E020C2DC3500873697 /* 7.jpg */; };
+		FAB9E3F020C2DC3600873697 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3E120C2DC3500873697 /* 6.jpg */; };
+		FAB9E3F120C2DC3600873697 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3E220C2DC3500873697 /* 8.jpg */; };
+		FAB9E3F220C2DC3600873697 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3E320C2DC3500873697 /* 5.jpg */; };
+		FAB9E3F320C2DC3600873697 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3E420C2DC3600873697 /* 12.jpg */; };
+		FAB9E3F420C2DC3600873697 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3E520C2DC3600873697 /* 2.jpg */; };
+		FAB9E3F520C2DC3600873697 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E3E620C2DC3600873697 /* 1.jpg */; };
+		FAB9E3F720C2DDFE00873697 /* PresetsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E3F620C2DDFE00873697 /* PresetsCell.swift */; };
+		FAB9E3F920C4643900873697 /* GiftController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E3F820C4643900873697 /* GiftController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA7F1CAB20C467AE000DA6BF /* ManualController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualController.swift; sourceTree = "<group>"; };
+		FA7F1CAD20C57AF3000DA6BF /* PageOfManual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageOfManual.swift; sourceTree = "<group>"; };
+		FA7F1CB220C57D2D000DA6BF /* 77.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 77.jpg; sourceTree = "<group>"; };
+		FA7F1CB320C57D2D000DA6BF /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		FA7F1CB420C57D2D000DA6BF /* 44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 44.jpg; sourceTree = "<group>"; };
+		FA7F1CB520C57D2D000DA6BF /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
+		FA7F1CB720C57D2D000DA6BF /* 99.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 99.jpg; sourceTree = "<group>"; };
+		FA7F1CB820C57D2D000DA6BF /* 55.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 55.jpg; sourceTree = "<group>"; };
+		FA7F1CB920C57D2D000DA6BF /* 88.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 88.jpg; sourceTree = "<group>"; };
+		FA7F1CC320C57F37000DA6BF /* 66.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 66.jpg; sourceTree = "<group>"; };
+		FA7F1CC520C57F58000DA6BF /* 33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 33.jpg; sourceTree = "<group>"; };
+		FA7F1CC720C58611000DA6BF /* FirstPageOfManual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageOfManual.swift; sourceTree = "<group>"; };
 		FAB9E39920C135FF00873697 /* HechoPresets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HechoPresets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB9E39C20C135FF00873697 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAB9E39E20C135FF00873697 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +85,7 @@
 		FAB9E3AE20C1426B00873697 /* ExamplesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplesController.swift; sourceTree = "<group>"; };
 		FAB9E3B020C1435500873697 /* ExampleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCell.swift; sourceTree = "<group>"; };
 		FAB9E3B220C1452B00873697 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
-		FAB9E3B520C2D31900873697 /* Bright_portrait.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bright_portrait.dng; sourceTree = "<group>"; };
+		FAB9E3B520C2D31900873697 /* Bright portrait.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bright portrait.dng"; sourceTree = "<group>"; };
 		FAB9E3B620C2D31900873697 /* Chocolate desaturate.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chocolate desaturate.dng"; sourceTree = "<group>"; };
 		FAB9E3B720C2D31900873697 /* Brown film.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brown film.dng"; sourceTree = "<group>"; };
 		FAB9E3B820C2D31900873697 /* Autumn.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = Autumn.dng; sourceTree = "<group>"; };
@@ -75,21 +101,23 @@
 		FAB9E3C220C2D31A00873697 /* Chocolate.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chocolate.dng; sourceTree = "<group>"; };
 		FAB9E3C320C2D31A00873697 /* Landscape green.dng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Landscape green.dng"; sourceTree = "<group>"; };
 		FAB9E3D520C2D95000873697 /* PresetsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetsController.swift; sourceTree = "<group>"; };
-		FAB9E3D820C2DC3400873697 /* Chocolate film.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chocolate film.jpg"; sourceTree = "<group>"; };
-		FAB9E3D920C2DC3400873697 /* Nice toning.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nice toning.jpg"; sourceTree = "<group>"; };
-		FAB9E3DA20C2DC3400873697 /* Warm skin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Warm skin.jpg"; sourceTree = "<group>"; };
-		FAB9E3DB20C2DC3400873697 /* Bright_portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bright_portrait.jpg; sourceTree = "<group>"; };
-		FAB9E3DC20C2DC3400873697 /* Landscape green.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Landscape green.jpg"; sourceTree = "<group>"; };
-		FAB9E3DD20C2DC3400873697 /* Chocolate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chocolate.jpg; sourceTree = "<group>"; };
-		FAB9E3DE20C2DC3500873697 /* Bright wedding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bright wedding.jpg"; sourceTree = "<group>"; };
-		FAB9E3DF20C2DC3500873697 /* High contrast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "High contrast.jpg"; sourceTree = "<group>"; };
-		FAB9E3E020C2DC3500873697 /* BW graphite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BW graphite.jpg"; sourceTree = "<group>"; };
-		FAB9E3E120C2DC3500873697 /* Brown film.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Brown film.jpg"; sourceTree = "<group>"; };
-		FAB9E3E220C2DC3500873697 /* Chocolate desaturate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chocolate desaturate.jpg"; sourceTree = "<group>"; };
-		FAB9E3E320C2DC3500873697 /* Brown cold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Brown cold.jpg"; sourceTree = "<group>"; };
-		FAB9E3E420C2DC3600873697 /* Landscape cold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Landscape cold.jpg"; sourceTree = "<group>"; };
-		FAB9E3E520C2DC3600873697 /* Barcelona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Barcelona.jpg; sourceTree = "<group>"; };
-		FAB9E3E620C2DC3600873697 /* Autumn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Autumn.jpg; sourceTree = "<group>"; };
+		FAB9E3D820C2DC3400873697 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		FAB9E3D920C2DC3400873697 /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
+		FAB9E3DA20C2DC3400873697 /* 15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpg; sourceTree = "<group>"; };
+		FAB9E3DB20C2DC3400873697 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		FAB9E3DC20C2DC3400873697 /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
+		FAB9E3DD20C2DC3400873697 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		FAB9E3DE20C2DC3500873697 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		FAB9E3DF20C2DC3500873697 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		FAB9E3E020C2DC3500873697 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		FAB9E3E120C2DC3500873697 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		FAB9E3E220C2DC3500873697 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		FAB9E3E320C2DC3500873697 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		FAB9E3E420C2DC3600873697 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		FAB9E3E520C2DC3600873697 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		FAB9E3E620C2DC3600873697 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		FAB9E3F620C2DDFE00873697 /* PresetsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetsCell.swift; sourceTree = "<group>"; };
+		FAB9E3F820C4643900873697 /* GiftController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +131,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA7F1CB020C57C6C000DA6BF /* instructions */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F1CB320C57D2D000DA6BF /* 11.jpg */,
+				FA7F1CB520C57D2D000DA6BF /* 22.jpg */,
+				FA7F1CC520C57F58000DA6BF /* 33.jpg */,
+				FA7F1CB420C57D2D000DA6BF /* 44.jpg */,
+				FA7F1CB820C57D2D000DA6BF /* 55.jpg */,
+				FA7F1CC320C57F37000DA6BF /* 66.jpg */,
+				FA7F1CB220C57D2D000DA6BF /* 77.jpg */,
+				FA7F1CB920C57D2D000DA6BF /* 88.jpg */,
+				FA7F1CB720C57D2D000DA6BF /* 99.jpg */,
+			);
+			path = instructions;
+			sourceTree = "<group>";
+		};
 		FAB9E39020C135FF00873697 = {
 			isa = PBXGroup;
 			children = (
@@ -127,11 +171,17 @@
 				FAB9E39E20C135FF00873697 /* ViewController.swift */,
 				FAB9E3AE20C1426B00873697 /* ExamplesController.swift */,
 				FAB9E3D520C2D95000873697 /* PresetsController.swift */,
+				FAB9E3F820C4643900873697 /* GiftController.swift */,
+				FA7F1CAB20C467AE000DA6BF /* ManualController.swift */,
+				FA7F1CAD20C57AF3000DA6BF /* PageOfManual.swift */,
+				FA7F1CC720C58611000DA6BF /* FirstPageOfManual.swift */,
 				FAB9E3A020C135FF00873697 /* Main.storyboard */,
 				FAB9E3A320C1360000873697 /* Assets.xcassets */,
 				FAB9E3A520C1360000873697 /* LaunchScreen.storyboard */,
 				FAB9E3A820C1360000873697 /* Info.plist */,
 				FAB9E3B020C1435500873697 /* ExampleCell.swift */,
+				FAB9E3F620C2DDFE00873697 /* PresetsCell.swift */,
+				FA7F1CB020C57C6C000DA6BF /* instructions */,
 				FAB9E3B420C2D2D500873697 /* presets */,
 			);
 			path = HechoPresets;
@@ -144,7 +194,7 @@
 				FAB9E3B820C2D31900873697 /* Autumn.dng */,
 				FAB9E3BE20C2D31A00873697 /* Barcelona.dng */,
 				FAB9E3B920C2D31900873697 /* Bright wedding.dng */,
-				FAB9E3B520C2D31900873697 /* Bright_portrait.dng */,
+				FAB9E3B520C2D31900873697 /* Bright portrait.dng */,
 				FAB9E3BA20C2D31900873697 /* Brown cold.dng */,
 				FAB9E3B720C2D31900873697 /* Brown film.dng */,
 				FAB9E3C120C2D31A00873697 /* BW graphite.dng */,
@@ -163,21 +213,21 @@
 		FAB9E3D720C2DC1100873697 /* previews */ = {
 			isa = PBXGroup;
 			children = (
-				FAB9E3E620C2DC3600873697 /* Autumn.jpg */,
-				FAB9E3E520C2DC3600873697 /* Barcelona.jpg */,
-				FAB9E3DE20C2DC3500873697 /* Bright wedding.jpg */,
-				FAB9E3DB20C2DC3400873697 /* Bright_portrait.jpg */,
-				FAB9E3E320C2DC3500873697 /* Brown cold.jpg */,
-				FAB9E3E120C2DC3500873697 /* Brown film.jpg */,
-				FAB9E3E020C2DC3500873697 /* BW graphite.jpg */,
-				FAB9E3E220C2DC3500873697 /* Chocolate desaturate.jpg */,
-				FAB9E3D820C2DC3400873697 /* Chocolate film.jpg */,
-				FAB9E3DD20C2DC3400873697 /* Chocolate.jpg */,
-				FAB9E3DF20C2DC3500873697 /* High contrast.jpg */,
-				FAB9E3E420C2DC3600873697 /* Landscape cold.jpg */,
-				FAB9E3DC20C2DC3400873697 /* Landscape green.jpg */,
-				FAB9E3D920C2DC3400873697 /* Nice toning.jpg */,
-				FAB9E3DA20C2DC3400873697 /* Warm skin.jpg */,
+				FAB9E3E620C2DC3600873697 /* 1.jpg */,
+				FAB9E3E520C2DC3600873697 /* 2.jpg */,
+				FAB9E3DE20C2DC3500873697 /* 3.jpg */,
+				FAB9E3DB20C2DC3400873697 /* 4.jpg */,
+				FAB9E3E320C2DC3500873697 /* 5.jpg */,
+				FAB9E3E120C2DC3500873697 /* 6.jpg */,
+				FAB9E3E020C2DC3500873697 /* 7.jpg */,
+				FAB9E3E220C2DC3500873697 /* 8.jpg */,
+				FAB9E3D820C2DC3400873697 /* 9.jpg */,
+				FAB9E3DD20C2DC3400873697 /* 10.jpg */,
+				FAB9E3DF20C2DC3500873697 /* 11.jpg */,
+				FAB9E3E420C2DC3600873697 /* 12.jpg */,
+				FAB9E3DC20C2DC3400873697 /* 13.jpg */,
+				FAB9E3D920C2DC3400873697 /* 14.jpg */,
+				FAB9E3DA20C2DC3400873697 /* 15.jpg */,
 			);
 			path = previews;
 			sourceTree = "<group>";
@@ -240,39 +290,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB9E3E920C2DC3600873697 /* Warm skin.jpg in Resources */,
+				FAB9E3E920C2DC3600873697 /* 15.jpg in Resources */,
 				FAB9E3CF20C2D31A00873697 /* Warm skin.dng in Resources */,
-				FAB9E3E720C2DC3600873697 /* Chocolate film.jpg in Resources */,
-				FAB9E3F420C2DC3600873697 /* Barcelona.jpg in Resources */,
+				FAB9E3E720C2DC3600873697 /* 9.jpg in Resources */,
+				FAB9E3F420C2DC3600873697 /* 2.jpg in Resources */,
 				FAB9E3CE20C2D31A00873697 /* High contrast.dng in Resources */,
+				FA7F1CC120C57D2D000DA6BF /* 55.jpg in Resources */,
+				FA7F1CC220C57D2D000DA6BF /* 88.jpg in Resources */,
 				FAB9E3CC20C2D31A00873697 /* Nice toning.dng in Resources */,
 				FAB9E3D020C2D31A00873697 /* BW graphite.dng in Resources */,
-				FAB9E3EC20C2DC3600873697 /* Chocolate.jpg in Resources */,
-				FAB9E3EA20C2DC3600873697 /* Bright_portrait.jpg in Resources */,
+				FAB9E3EC20C2DC3600873697 /* 10.jpg in Resources */,
+				FAB9E3EA20C2DC3600873697 /* 4.jpg in Resources */,
 				FAB9E3D120C2D31A00873697 /* Chocolate.dng in Resources */,
 				FAB9E3C920C2D31A00873697 /* Brown cold.dng in Resources */,
 				FAB9E3D220C2D31A00873697 /* Landscape green.dng in Resources */,
-				FAB9E3E820C2DC3600873697 /* Nice toning.jpg in Resources */,
-				FAB9E3ED20C2DC3600873697 /* Bright wedding.jpg in Resources */,
-				FAB9E3F020C2DC3600873697 /* Brown film.jpg in Resources */,
+				FA7F1CC420C57F37000DA6BF /* 66.jpg in Resources */,
+				FAB9E3E820C2DC3600873697 /* 14.jpg in Resources */,
+				FA7F1CC020C57D2D000DA6BF /* 99.jpg in Resources */,
+				FAB9E3ED20C2DC3600873697 /* 3.jpg in Resources */,
+				FAB9E3F020C2DC3600873697 /* 6.jpg in Resources */,
 				FAB9E3CA20C2D31A00873697 /* Chocolate film.dng in Resources */,
 				FAB9E3CD20C2D31A00873697 /* Barcelona.dng in Resources */,
+				FA7F1CBB20C57D2D000DA6BF /* 77.jpg in Resources */,
 				FAB9E3C720C2D31A00873697 /* Autumn.dng in Resources */,
-				FAB9E3F220C2DC3600873697 /* Brown cold.jpg in Resources */,
+				FAB9E3F220C2DC3600873697 /* 5.jpg in Resources */,
 				FAB9E3A720C1360000873697 /* LaunchScreen.storyboard in Resources */,
-				FAB9E3EB20C2DC3600873697 /* Landscape green.jpg in Resources */,
-				FAB9E3EE20C2DC3600873697 /* High contrast.jpg in Resources */,
+				FAB9E3EB20C2DC3600873697 /* 13.jpg in Resources */,
+				FAB9E3EE20C2DC3600873697 /* 11.jpg in Resources */,
 				FAB9E3C520C2D31A00873697 /* Chocolate desaturate.dng in Resources */,
-				FAB9E3F320C2DC3600873697 /* Landscape cold.jpg in Resources */,
-				FAB9E3EF20C2DC3600873697 /* BW graphite.jpg in Resources */,
+				FAB9E3F320C2DC3600873697 /* 12.jpg in Resources */,
+				FAB9E3EF20C2DC3600873697 /* 7.jpg in Resources */,
 				FAB9E3C820C2D31A00873697 /* Bright wedding.dng in Resources */,
+				FA7F1CBE20C57D2D000DA6BF /* 22.jpg in Resources */,
 				FAB9E3A420C1360000873697 /* Assets.xcassets in Resources */,
+				FA7F1CC620C57F58000DA6BF /* 33.jpg in Resources */,
 				FAB9E3C620C2D31A00873697 /* Brown film.dng in Resources */,
+				FA7F1CBD20C57D2D000DA6BF /* 44.jpg in Resources */,
 				FAB9E3CB20C2D31A00873697 /* Landscape cold.dng in Resources */,
-				FAB9E3C420C2D31A00873697 /* Bright_portrait.dng in Resources */,
+				FAB9E3C420C2D31A00873697 /* Bright portrait.dng in Resources */,
 				FAB9E3A220C135FF00873697 /* Main.storyboard in Resources */,
-				FAB9E3F520C2DC3600873697 /* Autumn.jpg in Resources */,
-				FAB9E3F120C2DC3600873697 /* Chocolate desaturate.jpg in Resources */,
+				FA7F1CBC20C57D2D000DA6BF /* 11.jpg in Resources */,
+				FAB9E3F520C2DC3600873697 /* 1.jpg in Resources */,
+				FAB9E3F120C2DC3600873697 /* 8.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,11 +343,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB9E3D620C2D95000873697 /* PresetsController.swift in Sources */,
+				FA7F1CAE20C57AF3000DA6BF /* PageOfManual.swift in Sources */,
 				FAB9E3B320C1452B00873697 /* model.swift in Sources */,
 				FAB9E3B120C1435500873697 /* ExampleCell.swift in Sources */,
 				FAB9E39F20C135FF00873697 /* ViewController.swift in Sources */,
+				FAB9E3F720C2DDFE00873697 /* PresetsCell.swift in Sources */,
+				FAB9E3F920C4643900873697 /* GiftController.swift in Sources */,
 				FAB9E39D20C135FF00873697 /* AppDelegate.swift in Sources */,
+				FA7F1CAC20C467AE000DA6BF /* ManualController.swift in Sources */,
 				FAB9E3AF20C1426B00873697 /* ExamplesController.swift in Sources */,
+				FA7F1CC820C58611000DA6BF /* FirstPageOfManual.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
