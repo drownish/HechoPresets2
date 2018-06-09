@@ -45,21 +45,21 @@ let presets = [Bundle.main.path(forResource: "Autumn", ofType: ".dng"),
                Bundle.main.path(forResource: "Warm skin", ofType: ".dng")
 ]
 
-let presetsPreviews = [UIImage(named: "1.jpg")!,
-                       UIImage(named: "2.jpg")!,
-                       UIImage(named: "3.jpg")!,
-                       UIImage(named: "4.jpg")!,
-                       UIImage(named: "5.jpg")!,
-                       UIImage(named: "6.jpg")!,
-                       UIImage(named: "7.jpg")!,
-                       UIImage(named: "8.jpg")!,
-                       UIImage(named: "9.jpg")!,
-                       UIImage(named: "10.jpg")!,
-                       UIImage(named: "11.jpg")!,
-                       UIImage(named: "12.jpg")!,
-                       UIImage(named: "13.jpg")!,
-                       UIImage(named: "14.jpg")!,
-                       UIImage(named: "15.jpg")!
+let presetsPreviews = [UIImage(named: "1p.jpg")!,
+                       UIImage(named: "2p.jpg")!,
+                       UIImage(named: "3p.jpg")!,
+                       UIImage(named: "4p.jpg")!,
+                       UIImage(named: "5p.jpg")!,
+                       UIImage(named: "6p.jpg")!,
+                       UIImage(named: "7p.jpg")!,
+                       UIImage(named: "8p.jpg")!,
+                       UIImage(named: "9p.jpg")!,
+                       UIImage(named: "10p.jpg")!,
+                       UIImage(named: "11p.jpg")!,
+                       UIImage(named: "12p.jpg")!,
+                       UIImage(named: "13p.jpg")!,
+                       UIImage(named: "14p.jpg")!,
+                       UIImage(named: "15p.jpg")!
 
 
 ]

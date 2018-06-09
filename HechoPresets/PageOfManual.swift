@@ -18,7 +18,16 @@ class PageOfManual: UIViewController {
     
     
     @IBAction func skipButton(_ sender: Any) {
-        NotificationCenter.default.post(name: NSNotification.Name("dismissManual"), object: nil)
+        if isFirst {
+            print("posted to disappear as first")
+            NotificationCenter.default.post(name: NSNotification.Name("dismissManualFirst"), object: nil)
+            
+        }
+        else {
+            print("posted to disappear as usual")
+            NotificationCenter.default.post(name: NSNotification.Name("dismissManual"), object: nil)
+            
+        }
     }
     
     @IBOutlet var mainImg: UIImageView!

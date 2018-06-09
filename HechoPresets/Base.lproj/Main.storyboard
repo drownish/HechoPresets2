@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JKF-pO-Ec4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3FG-LU-Ja3">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -202,13 +202,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© HechoPresets" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9B9-O3-Dy5">
-                                <rect key="frame" x="128" y="565.5" width="119.5" height="19.5"/>
+                                <rect key="frame" x="128" y="565.5" width="119" height="19.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-кисть-filled-100" translatesAutoresizingMaskIntoConstraints="NO" id="RMv-2v-Xpr">
-                                <rect key="frame" x="47.5" y="79" width="102" height="102"/>
+                                <rect key="frame" x="47.5" y="79.5" width="102" height="101.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="RMv-2v-Xpr" secondAttribute="height" multiplier="1:1" id="SGR-DW-BTK"/>
                                 </constraints>
@@ -244,13 +244,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Presets" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZA-Ds-zi1">
-                                <rect key="frame" x="71.5" y="245.5" width="55" height="19.5"/>
+                                <rect key="frame" x="72" y="245.5" width="55" height="19.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Examples" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LWJ-8H-KPv">
-                                <rect key="frame" x="242" y="245.5" width="69.5" height="19.5"/>
+                                <rect key="frame" x="242.5" y="245.5" width="69" height="19.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -274,13 +274,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Users manual" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLD-6h-w2y">
-                                <rect key="frame" x="50" y="506" width="99" height="19.5"/>
+                                <rect key="frame" x="49.5" y="506" width="99" height="19.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-подарок-filled-100" translatesAutoresizingMaskIntoConstraints="NO" id="a7Q-eD-oHD">
-                                <rect key="frame" x="224.5" y="338.5" width="102.5" height="102.5"/>
+                                <rect key="frame" x="224.5" y="339" width="102.5" height="102"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="a7Q-eD-oHD" secondAttribute="height" multiplier="1:1" id="5gH-ss-ChI"/>
                                 </constraints>
@@ -298,7 +298,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get a gift" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5g-JW-hdN">
-                                <rect key="frame" x="243" y="506.5" width="67" height="19.5"/>
+                                <rect key="frame" x="243.5" y="506.5" width="67" height="19.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -358,21 +358,25 @@
         <!--Manual Controller-->
         <scene sceneID="A4f-nx-Q4j">
             <objects>
-                <pageViewController storyboardIdentifier="man" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="wep-5l-czi" customClass="ManualController" customModule="HechoPresets" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="man" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="wep-5l-czi" customClass="ManualController" customModule="HechoPresets" customModuleProvider="target" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="JKF-pO-Ec4" kind="show" identifier="toMainFromManual" id="VU5-h0-gKD"/>
+                    </connections>
+                </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zxn-k1-v5F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1076" y="844"/>
         </scene>
-        <!--View Controller-->
+        <!--First Page Of Manual-->
         <scene sceneID="wcB-qH-w4J">
             <objects>
-                <viewController storyboardIdentifier="tut2" id="iIQ-L5-CUp" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="tut2" id="iIQ-L5-CUp" customClass="FirstPageOfManual" customModule="HechoPresets" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sk8-Rk-dj7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Make your pictures awesome, just use my Presets for Lightroom" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ohM-QT-gMf">
-                                <rect key="frame" x="32" y="312.5" width="311" height="43"/>
+                                <rect key="frame" x="32" y="312" width="311" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
@@ -394,6 +398,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5Pa-Ah-xko"/>
                     </view>
+                    <connections>
+                        <outlet property="mainTitle" destination="ohM-QT-gMf" id="wXn-cY-nWA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oyz-E8-Moh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -408,7 +415,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TDI-Al-odE">
-                                <rect key="frame" x="26" y="82" width="322" height="573"/>
+                                <rect key="frame" x="26.5" y="82" width="322" height="573"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="TDI-Al-odE" secondAttribute="height" multiplier="9:16" id="7Yu-RS-cbj"/>
                                 </constraints>
@@ -441,6 +448,99 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7LA-bl-fzP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1076" y="1563"/>
+        </scene>
+        <!--Last Page Of Manual-->
+        <scene sceneID="mDX-YV-OEh">
+            <objects>
+                <viewController storyboardIdentifier="tut3" id="lsy-88-HSp" customClass="LastPageOfManual" customModule="HechoPresets" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kJq-bB-ucw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ntj-XM-3yh">
+                                <rect key="frame" x="28" y="583" width="319" height="52"/>
+                                <color key="backgroundColor" red="0.36216806994818651" green="0.36216806994818651" blue="0.36216806994818651" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="v4t-Ik-HGa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="startButton:" destination="lsy-88-HSp" eventType="touchUpInside" id="mNi-BM-6QN"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upload your beautiful picture into social networks and get many &quot;likes&quot; :)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y6e-E2-Ibu">
+                                <rect key="frame" x="36" y="140" width="303" height="68.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fac-kO-CYb">
+                                <rect key="frame" x="70" y="497.5" width="235" height="45.5"/>
+                                <string key="text">To start work press
+"Start" button</string>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For getting detail tutorials please visit" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KOz-8d-GX1">
+                                <rect key="frame" x="36" y="240" width="303" height="45.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e0G-aB-CME">
+                                <rect key="frame" x="20" y="293" width="335" height="44"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <state key="normal" title="hechopresets.info">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToSite:" destination="lsy-88-HSp" eventType="touchUpInside" id="4dV-Mc-QKa"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="click to visit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8YV-tK-rld">
+                                <rect key="frame" x="149" y="337" width="77" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.73165616190000005" green="0.73165616190000005" blue="0.73165616190000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2114030117" green="0.2114030117" blue="0.2114030117" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="WZp-L5-I5G" firstAttribute="trailing" secondItem="e0G-aB-CME" secondAttribute="trailing" constant="20" id="1ZT-vf-1de"/>
+                            <constraint firstItem="8YV-tK-rld" firstAttribute="centerX" secondItem="kJq-bB-ucw" secondAttribute="centerX" id="2bw-mh-zHm"/>
+                            <constraint firstItem="WZp-L5-I5G" firstAttribute="trailing" secondItem="KOz-8d-GX1" secondAttribute="trailing" constant="36" id="8Qb-lz-Id5"/>
+                            <constraint firstItem="Y6e-E2-Ibu" firstAttribute="leading" secondItem="kJq-bB-ucw" secondAttribute="leading" constant="36" id="FIY-ZU-8O5"/>
+                            <constraint firstItem="Ntj-XM-3yh" firstAttribute="centerX" secondItem="kJq-bB-ucw" secondAttribute="centerX" id="L17-GI-ih6"/>
+                            <constraint firstItem="Ntj-XM-3yh" firstAttribute="leading" secondItem="WZp-L5-I5G" secondAttribute="leading" constant="28" id="NBl-16-fBZ"/>
+                            <constraint firstItem="Y6e-E2-Ibu" firstAttribute="top" secondItem="WZp-L5-I5G" secondAttribute="top" constant="120" id="TvH-Jj-vCS"/>
+                            <constraint firstItem="KOz-8d-GX1" firstAttribute="leading" secondItem="WZp-L5-I5G" secondAttribute="leading" constant="36" id="bcZ-C1-3oA"/>
+                            <constraint firstItem="e0G-aB-CME" firstAttribute="top" secondItem="KOz-8d-GX1" secondAttribute="bottom" constant="7" id="ble-Rw-bBt"/>
+                            <constraint firstItem="e0G-aB-CME" firstAttribute="centerX" secondItem="kJq-bB-ucw" secondAttribute="centerX" id="cKO-nr-jdg"/>
+                            <constraint firstItem="8YV-tK-rld" firstAttribute="top" secondItem="e0G-aB-CME" secondAttribute="bottom" id="f88-f2-SKf"/>
+                            <constraint firstItem="fac-kO-CYb" firstAttribute="centerX" secondItem="kJq-bB-ucw" secondAttribute="centerX" id="fEL-Ur-l1A"/>
+                            <constraint firstItem="Y6e-E2-Ibu" firstAttribute="centerX" secondItem="kJq-bB-ucw" secondAttribute="centerX" id="kGC-yl-eQT"/>
+                            <constraint firstItem="fac-kO-CYb" firstAttribute="leading" secondItem="WZp-L5-I5G" secondAttribute="leading" constant="70" id="nwx-IU-FiH"/>
+                            <constraint firstItem="KOz-8d-GX1" firstAttribute="top" secondItem="Y6e-E2-Ibu" secondAttribute="bottom" constant="31.5" id="ofb-qf-izN"/>
+                            <constraint firstItem="e0G-aB-CME" firstAttribute="leading" secondItem="WZp-L5-I5G" secondAttribute="leading" constant="20" id="tpd-1s-Uga"/>
+                            <constraint firstItem="KOz-8d-GX1" firstAttribute="centerX" secondItem="kJq-bB-ucw" secondAttribute="centerX" id="xtz-GR-CfO"/>
+                            <constraint firstItem="Ntj-XM-3yh" firstAttribute="top" secondItem="fac-kO-CYb" secondAttribute="bottom" constant="40" id="yBY-O1-XoW"/>
+                            <constraint firstItem="WZp-L5-I5G" firstAttribute="bottom" secondItem="Ntj-XM-3yh" secondAttribute="bottom" constant="32" id="zLT-4H-gnW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WZp-L5-I5G"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LmZ-Qk-qsf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1892" y="1563"/>
         </scene>
         <!--Gift-->
         <scene sceneID="bj2-Sb-MVj">
@@ -509,6 +609,7 @@ Just submit following form:</string>
                     <navigationItem key="navigationItem" title="Gift" id="Xqa-Hc-cmz"/>
                     <connections>
                         <outlet property="emailField" destination="gUs-6N-Wm8" id="g1f-Mn-amv"/>
+                        <outlet property="sendButton" destination="IpM-O0-qrc" id="JbZ-JQ-XOa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HnE-aj-zcy" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -519,6 +620,39 @@ Just submit following form:</string>
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2052" y="133.5832083958021"/>
+        </scene>
+        <!--Starter-->
+        <scene sceneID="YM9-kB-Fsk">
+            <objects>
+                <viewController id="3FG-LU-Ja3" customClass="Starter" customModule="HechoPresets" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nZE-9P-pq3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hecho Presets for Lightroom" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="yqQ-dy-c72">
+                                <rect key="frame" x="60" y="322" width="255" height="23"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="19"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2114030117" green="0.2114030117" blue="0.2114030117" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="yqQ-dy-c72" firstAttribute="centerY" secondItem="nZE-9P-pq3" secondAttribute="centerY" id="930-hB-XYH"/>
+                            <constraint firstItem="yqQ-dy-c72" firstAttribute="centerX" secondItem="nZE-9P-pq3" secondAttribute="centerX" id="DLz-Wc-62E"/>
+                            <constraint firstItem="yqQ-dy-c72" firstAttribute="leading" secondItem="gai-pa-K2e" secondAttribute="leading" constant="60" id="ZLW-TM-b2W"/>
+                            <constraint firstItem="gai-pa-K2e" firstAttribute="trailing" secondItem="yqQ-dy-c72" secondAttribute="trailing" constant="60" id="dnH-Gc-bS9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gai-pa-K2e"/>
+                    </view>
+                    <connections>
+                        <segue destination="wep-5l-czi" kind="show" identifier="toManual" id="eS8-qe-o4L"/>
+                        <segue destination="JKF-pO-Ec4" kind="show" identifier="toMain" id="AL4-Cx-iWA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="klP-lB-Nde" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-685" y="135"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="LKK-VF-yZk">
@@ -550,4 +684,7 @@ Just submit following form:</string>
         <image name="icons8-подарок-filled-100" width="100" height="100"/>
         <image name="icons8-помощь-filled-100" width="100" height="100"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="VU5-h0-gKD"/>
+    </inferredMetricsTieBreakers>
 </document>

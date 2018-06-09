@@ -13,9 +13,12 @@ class FirstPageOfManual: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        mainTitle.text = textForMainTitle
         // Do any additional setup after loading the view.
     }
 
-  
+    @IBOutlet weak var mainTitle: UILabel!
+    var textForMainTitle = ""
+    
 
 }

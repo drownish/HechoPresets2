@@ -8,6 +8,9 @@
 
 import UIKit
 
+
+var isFirst = false
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +19,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        if UserDefaults.standard.object(forKey: "isFirst") != nil {
+            isFirst = false
+        }
+        else {
+            print(UserDefaults.standard.object(forKey: "isFirst"))
+            isFirst = true
+        }
+        
         return true
     }
 
@@ -39,6 +51,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+        
+        isFirst = false
+        print("is first falsed")
+        UserDefaults.standard.set(123, forKey: "isFirst")
+        print(UserDefaults.standard.object(forKey: "isFirst"))
+        
     }
 
 
